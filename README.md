@@ -96,13 +96,11 @@ This integrated approach allows the analysis to move beyond descriptive trends a
 This project uses publicly available datasets provided by New York City agencies through NYC Open Data and official agency websites. All data are used in accordance with the NYC Open Data Terms of Use.
 
 **Data Sources:**
-- **NYC Department of City Planning (DCP) – Housing Database**  
-  [NYC Department of City Planning, Housing Project-Level Database](https://www.nyc.gov/content/planning/pages/resources/datasets/housing-project-level#overview)
-  <br>License: NYC Open Data Terms of Use (Open Data)
+- **[NYC Department of City Planning, Housing Project-Level Database](https://www.nyc.gov/content/planning/pages/resources/datasets/housing-project-level#overview)
+  <br>License: NYC Open Data Terms of Use (Open Data)**
 
-- **NYC Department of Homeless Services (DHS) – Data Dashboard**  
-  [NYC Department of Homeless Services, DHS Data Dashboard](https://data.cityofnewyork.us/Social-Services/DHS-Data-Dashboard/5e9h-x6ak/about_data) 
-  <br>License: NYC Open Data Terms of Use (Open Data)
+- **[NYC Department of Homeless Services, DHS Data Dashboard](https://data.cityofnewyork.us/Social-Services/DHS-Data-Dashboard/5e9h-x6ak/about_data) 
+  <br>License: NYC Open Data Terms of Use (Open Data)**
 
 - **Affordable Housing Reference Pages**  
   Sources include Housing Connect (HPD/HDC), MOPD, HUD, and NYCHA official websites.  
