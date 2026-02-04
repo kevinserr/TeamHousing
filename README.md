@@ -1,4 +1,4 @@
-# Open Door Plan
+# Open Door Plan 🏙️
 ## By team: Keys to the City 
 [Vincent Perez](https://www.linkedin.com/in/thevinceperez/), [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369/) and [Kevin Serrano Lopez](https://www.linkedin.com/in/kevin-serrano-lopez/)
 ## CRQ:
