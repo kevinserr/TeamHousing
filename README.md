@@ -1,17 +1,18 @@
-# TeamHousing
+# Open Door Plan
+## By team: Keys to the City 
+[Vincent Perez](https://www.linkedin.com/in/thevinceperez/), [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369/) and [Kevin Serrano Lopez](https://www.linkedin.com/in/kevin-serrano-lopez/)
 ## CRQ:
 Using government and non-profit owned housing as a proxy for affordability, is variation in the monthly counts of demolition job records predictive of changes in New York City’s shelter population over time, accounting for seasonality, from 2015 to 2024?\
 ## Hypothesis  
 We hypothesize that higher monthly counts of public housing demolition job records will be predictive of increases in the NYC shelter population, potentially with a lag of several months.\
 Below is a polished, README-ready version that keeps an analyst / student tone and clearly documents data provenance, structure, and intended use.
 
----
 
 ## Data Sources Overview
 
 This project uses two primary New York City government datasets to examine the relationship between residential building demolitions and trends in homelessness over time. Together, these datasets support exploratory data analysis (EDA) and time-series modeling to assess whether demolitions—particularly of government and non-profit (affordable) housing—are associated with changes in shelter populations.
 
----
+
 
 ## Data Source 1: NYC Department of City Planning (DCP) – Housing Database
 
@@ -45,7 +46,7 @@ The cleaned demolition data will be aggregated by time (monthly) and used as an 
 
 * Not aggregated; project-level data.
 
----
+
 
 ## Data Source 2: NYC Department of Homeless Services (DHS) – Data Dashboard
 
@@ -71,7 +72,7 @@ This dataset provides **monthly homelessness trends** and is used to evaluate wh
 
 * Aggregated at the **monthly** level.
 
----
+
 
 ## Data Integration and Modeling Approach
 
@@ -90,6 +91,26 @@ This integrated approach allows the analysis to move beyond descriptive trends a
 |------------------|------------------------------------------|------------------------------|
 | Affordable Housing Pages <br> Housing Connect (HPD, HDC) <br> Housing - MOPD <br> HUD <br> NYCHA | We are assuming some of the ownership (column in DCP) of agencies listed in our DCP Housing Database are part of our affordable/government subsidized category.|Assumptions: For our analysis, we must assume that ownership by these agencies mentioned on this web page are included in the “affordable” category due to government subsidizing/lower rent. | |
 | DCP (Department of City Planning) HOUSING DATABASE | We are using the latest release of the DCP Housing Database, which includes years from 2019-2021 | Assumptions: We are to assume COVID had an impact, but not drastic enough to affect our analysis. | |
+
+
+### Data Attribution and Licensing
+
+This project uses publicly available datasets provided by New York City agencies through NYC Open Data and official agency websites. All data are used in accordance with the NYC Open Data Terms of Use.
+
+**Data Sources:**
+- **NYC Department of City Planning (DCP) – Housing Database**  
+  Source: https://www.nyc.gov/content/planning/pages/resources/datasets/housing-project-level  
+  License: NYC Open Data Terms of Use (Open Data)
+
+- **NYC Department of Homeless Services (DHS) – Data Dashboard**  
+  Source: https://data.cityofnewyork.us/Social-Services/DHS-Data-Dashboard/5e9h-x6ak  
+  License: NYC Open Data Terms of Use (Open Data)
+
+- **Affordable Housing Reference Pages**  
+  Sources include Housing Connect (HPD/HDC), MOPD, HUD, and NYCHA official websites.  
+  These sources are used for contextual classification and ownership assumptions only.
+
+All datasets remain the property of their respective agencies. This project is for educational and analytical purposes and does not claim ownership over the source data.
 
 
 
